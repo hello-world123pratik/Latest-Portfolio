@@ -1,0 +1,81 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:       #0a0a0f;
+  --bg-card:  #111118;
+  --bg-glass: rgba(255,255,255,0.04);
+  --border:   rgba(255,255,255,0.08);
+  --accent:   #7c6af7;
+  --accent2:  #4fc3f7;
+  --text:     #e8e8f0;
+  --muted:    #6b6b80;
+  --font-display: 'Syne', sans-serif;
+  --font-body:    'DM Sans', sans-serif;
+  --radius:   16px;
+  --radius-sm: 8px;
+  --transition: 0.3s cubic-bezier(0.4,0,0.2,1);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+a { text-decoration: none; color: inherit; }
+::selection { background: var(--accent); color: #fff; }
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--accent); border-radius: 3px; }
+
+.container { max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
+.section { padding: 7rem 0; }
+
+.section-label {
+  font-size: 0.72rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.8rem;
+  display: flex; align-items: center; gap: 0.75rem;
+}
+.section-label::before {
+  content: '';
+  display: inline-block; width: 2rem; height: 1px; background: var(--accent);
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800; line-height: 1.1; margin-bottom: 1.5rem;
+}
+
+.bg-blob {
+  position: fixed; border-radius: 50%; filter: blur(130px);
+  opacity: 0.12; pointer-events: none; z-index: 0;
+}
+.bg-blob-1 { width: 600px; height: 600px; background: var(--accent); top: -200px; left: -200px; }
+.bg-blob-2 { width: 500px; height: 500px; background: var(--accent2); bottom: -150px; right: -150px; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; } to { opacity: 1; }
+}
+@keyframes float {
+  0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); }
+}
+
+.fade-up    { animation: fadeUp 0.65s ease both; }
+.fade-up-d1 { animation: fadeUp 0.65s 0.1s ease both; }
+.fade-up-d2 { animation: fadeUp 0.65s 0.2s ease both; }
+.fade-up-d3 { animation: fadeUp 0.65s 0.3s ease both; }
+.fade-up-d4 { animation: fadeUp 0.65s 0.4s ease both; }
+.fade-up-d5 { animation: fadeUp 0.65s 0.5s ease both; }
+.fade-in    { animation: fadeIn 0.5s ease both; }
