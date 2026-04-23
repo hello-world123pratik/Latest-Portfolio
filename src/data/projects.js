@@ -24,8 +24,8 @@ const projects = [
     description:
       "A full-featured job portal built with Django supporting three distinct roles: job seekers, employers, and administrators. Employers can post and manage listings; admins approve postings; seekers can apply and track applications — all with protected routing and media uploads.",
     tech: ["Django", "Python", "PostgreSQL", "Render", "HTML/CSS", "Bootstrap"],
-    live: "https://dijango-project.onrender.com",
-    github: "https://github.com/hello-world123pratik/dijango_project",
+    live: "https://django-project-zxwf.onrender.com",
+    github: "https://github.com/hello-world123pratik/django_project",
     highlights: [
       "Role-based authentication: seeker, employer, admin",
       "Employer dashboards for posting, editing, viewing applicants",
