@@ -2,18 +2,18 @@
 
 A modern and responsive personal portfolio website built using **React** and **Vite**. This project showcases my skills, projects, and experience with a clean UI and optimized performance.
 
-## 🚀 Live Demo
+## Live Demo
 
-🔗 https://latest-portfolio-ruby-one.vercel.app
+https://latest-portfolio-ruby-one.vercel.app
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * React
 * Vite
 * JavaScript (ES6+)
 * HTML5 & CSS3
 
-## ✨ Features
+## Features
 
 * Responsive design for all devices
 * Fast performance with Vite
@@ -21,7 +21,7 @@ A modern and responsive personal portfolio website built using **React** and **V
 * Project showcase section
 * Easy to customize and extend
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 To run this project locally:
 
@@ -32,7 +32,7 @@ npm install
 npm run dev
 ```
 
-## 📄 License
+## License
 
 This project is open-source and available under the MIT License.
 
