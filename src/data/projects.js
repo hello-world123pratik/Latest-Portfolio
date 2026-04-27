@@ -36,22 +36,25 @@ const projects = [
     color: "#4fc3f7",
   },
   {
-    id: 3,
-    title: "SkillSync — Collaboration Platform",
-    tagline: "MERN real-time chat, profiles & scheduling",
-    description:
-      "A real-time collaboration platform built on the MERN stack featuring group chat rooms, user profiles, and calendar-based scheduling. Designed for skill-sharing communities and remote teams.",
-    tech: ["React", "Node.js", "Express", "MongoDB", "Socket.io", "Tailwind CSS"],
-    live: "https://skillchat-frontend.onrender.com",
-    github: "https://github.com/hello-world123pratik/Skillchat",
-    highlights: [
-      "Real-time messaging with Socket.io group chat rooms",
-      "User profiles with skills and availability status",
-      "Calendar scheduling for collaborative sessions",
-      "Responsive mobile-first design",
-    ],
-    color: "#a78bfa",
-  },
+  id: 3,
+  title: "SkillSync — Collaboration Platform",
+  tagline: "Real-time MERN chat, groups & scheduling platform",
+  description:
+    "A full-stack real-time collaboration platform built using the MERN stack with Socket.io. It enables group chat rooms, direct messaging, user profiles, notifications, and calendar-based scheduling for skill-sharing communities and remote teams.",
+  tech: ["React", "Node.js", "Express", "MongoDB", "Socket.io", "Tailwind CSS"],
+  live: "https://skillsync-app-five.vercel.app",
+  github: "https://github.com/hello-world123pratik/skillsync-app",
+  highlights: [
+    "Real-time messaging with Socket.io (group chats + direct messages)",
+    "Typing indicators and online/offline presence system",
+    "Group creation with tags, visibility control, and membership system",
+    "Interactive calendar for scheduling collaborative events",
+    "User profiles with skills, bio, and social links",
+    "JWT authentication with secure REST API backend",
+    "Fully responsive UI built with Tailwind CSS"
+  ],
+  color: "#a78bfa",
+},
 ];
 
 export default projects;
