@@ -18,23 +18,26 @@ const projects = [
     color: "#7c6af7",
   },
   {
-    id: 2,
-    title: "JobBoard — Django Job Portal",
-    tagline: "Role-based platform for seekers, employers & admins",
-    description:
-      "A full-featured job portal built with Django supporting three distinct roles: job seekers, employers, and administrators. Employers can post and manage listings; admins approve postings; seekers can apply and track applications — all with protected routing and media uploads.",
-    tech: ["Django", "Python", "PostgreSQL", "Render", "HTML/CSS", "Bootstrap"],
-    live: "https://django-project-zxwf.onrender.com",
-    github: "https://github.com/hello-world123pratik/django_project",
-    highlights: [
-      "Role-based authentication: seeker, employer, admin",
-      "Employer dashboards for posting, editing, viewing applicants",
-      "Admin job-approval workflow with access control",
-      "Profile management with media file uploads",
-      "Deployed on Render with static/media configuration",
-    ],
-    color: "#4fc3f7",
-  },
+  id: 2,
+  title: "JobBoard — Scalable Django Job Portal",
+  tagline: "Role-based recruitment platform with custom admin dashboard",
+  description:
+    "Engineered a full-stack job portal using Django, enabling structured interaction between job seekers, employers, and administrators. Implemented secure role-based authentication, a custom-built admin dashboard for moderation, and a complete job application lifecycle. Integrated cloud-based media storage for resume handling and deployed the application on Render with PostgreSQL, ensuring scalability and reliability.",
+  tech: ["Django", "Python", "PostgreSQL", "Cloudinary", "Render", "HTML", "CSS", "Bootstrap"],
+  live: "https://django-jobboard-hox1.onrender.com/",
+  github: "https://github.com/hello-world123pratik/django-jobboard",
+  highlights: [
+    "Implemented role-based access control for Job Seekers, Employers, and Administrators",
+    "Developed a custom admin dashboard for managing users, job listings, categories, and applications",
+    "Built an employer dashboard to create, edit, and manage job postings and review applicants",
+    "Designed an end-to-end job application workflow with resume upload and Cloudinary integration",
+    "Enabled real-time application tracking for job seekers",
+    "Created a moderation system for approving and rejecting job listings",
+    "Enforced secure routing and authorization across all user roles",
+    "Deployed the application on Render with PostgreSQL and optimized static and media handling"
+  ],
+  color: "#4fc3f7",
+},
   {
   id: 3,
   title: "SkillSync — Collaboration Platform",
